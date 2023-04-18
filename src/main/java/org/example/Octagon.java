@@ -9,5 +9,9 @@ public class Octagon extends Shape  {
     @Override
     public void draw() {
         System.out.println("Drawing the "+name);
+        System.out.println("    ___  ");
+        System.out.println("   /   \\  ");
+        System.out.println("  |     | ");
+        System.out.println("   \\___/ ");
     }
 }

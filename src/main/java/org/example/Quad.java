@@ -10,5 +10,8 @@ public class Quad extends Shape {
     @Override
     public void draw() {
         System.out.println("Drawing the "+name);
+        System.out.println("  ______    ");
+        System.out.println("  |    |   ");
+        System.out.println("  |____|   ");
     }
 }
