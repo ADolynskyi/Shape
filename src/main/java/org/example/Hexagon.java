@@ -2,7 +2,11 @@ package org.example;
 
 public class Hexagon extends Shape{
 
-    private String name="Hexagon";
+    private String name;
+
+    public Hexagon(){
+        this.name="Hexagon";
+    }
     @Override
     public void printName() {
         System.out.println(name);

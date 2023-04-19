@@ -1,7 +1,11 @@
 package org.example;
 
 public class Octagon extends Shape  {
-    private String name="Octagon";
+    private String name;
+
+    public Octagon(){
+        this.name="Octagon";
+    }
     @Override
     public void printName() {
         System.out.println(name);

@@ -2,7 +2,11 @@ package org.example;
 
 public class Circle extends Shape {
 
-    private String name="Circle";
+    private String name;
+
+    public Circle(){
+        this.name="Circle";
+    }
 
     @Override
     public void printName() {
